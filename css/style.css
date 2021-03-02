@@ -1,0 +1,189 @@
+
+body{
+	font-family: Montserrat;
+	font-size: 15px;
+	color: #DA5241;
+}
+
+header{
+	padding: 35px;
+}
+
+#hero{
+	background-image: url("../img/imagen-inicio.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 30% 0;
+	text-align: right;
+	background-color: #DA5241;
+}
+
+#hero h1{
+	font-size: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#hero h3{
+	text-align: right;
+	padding-left: 400px;
+	padding-top: 10px;
+	color: #DA5241;
+	font-weight: lighter
+}
+
+#hero h5{
+	text-align: right;
+	padding-left: 500px;
+	padding-top: 10px;
+	color: #4A4643;
+	font-size: 18px;
+}
+
+#hero .btn-light{
+	background-color: #DA5241;
+	border: 2px solid #DA5241;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+#hero .btn-light:hover{
+	background-color: #E8B186;
+	color: #fff;
+	border-color: #E8B186;
+}
+
+#hello{
+	text-align: center;
+	background-color: #DB825D;
+}
+
+#hello h2{
+	font-weight: bold;
+	padding: 2% 0 2% 0;
+	
+}
+
+#hello h5{
+	padding: 10px 0 0 500px;
+	color: #fff;
+}
+
+#col2 p{
+	font-size: 20px;
+	padding: 2% 10%;
+	color: #fff;
+	
+}
+
+.section{
+	padding: 5% 0;
+}
+
+#col2{
+	background-color: #E8B186;
+}
+
+#secciones{
+	text-align: center;
+	background-color: #DA5241;
+}
+
+#secciones h1{
+	font-size: 90px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+	background-color: #DA5241;
+	
+}
+
+#quote{
+	text-align: center;
+	background-image: url("../img/frase-10.png");
+	background-size: cover;	
+}
+
+#quote h4{
+	color: #fff;
+	padding: 5% 0; 
+}
+
+#el-plan .btn-light{
+	background-color: transparent;
+	border: 2px solid #E8B186;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700; 
+	
+}
+
+#embarazo .btn-light{
+	background-color: transparent;
+	border: 2px solid #E8B186;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700; 
+	
+}
+
+#postparto .btn-light{
+	background-color: transparent;
+	border: 2px solid #E8B186;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700; 
+	
+}
+
+#lactancia .btn-light{
+	background-color: transparent;
+	border: 2px solid #E8B186;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 700;
+	
+}
+
+#el-plan .btn-light:hover{
+	background-color: #DB825D;
+	color: #fff;
+	border-color: #DB825D;
+	
+}
+
+#embarazo .btn-light:hover{
+	background-color: #DB825D;
+	color: #fff;
+	border-color: #DB825D;
+	
+}
+
+#postparto .btn-light:hover{
+	background-color: #DB825D;
+	color: #fff;
+	border-color: #DB825D;
+	
+}
+
+#lactancia .btn-light:hover{
+	background-color: #DB825D;
+	color: #fff;
+	border-color: #DB825D;	
+}
+
+.postparto{
+	position: absolute;
+	margin-bottom: 50px;
+}
