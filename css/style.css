@@ -1,3 +1,10 @@
+:root{
+	--color-gris: #4A4643;
+	--color-naranja: #DA5241;
+	--color-piel: #E8B186;
+	--color-naranja-claro: #DB825D;
+}
+
 
 body{
 	font-family: Montserrat;
@@ -187,3 +194,83 @@ header{
 	position: absolute;
 	margin-bottom: 50px;
 }
+
+#el-plan {
+	text-align: center;
+
+}
+
+
+#el-plan h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 60px;	
+}
+
+#el-plan p {
+	padding: 2% 18%;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--color-gris)
+	
+	
+}
+
+#articulos {
+	text-align: left;
+	background-color: #fff;
+}
+
+#articulos h4 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #fff;
+	
+}
+
+#articulos p {
+	font-size: 17px;
+	color: #fff;
+}
+
+.img-text {
+	position: absolute;
+	top: 950px;
+	left: 130px;
+}
+
+.img-p {
+	position: absolute;
+	top: 1000px;
+	left: 130px;
+	width: 300px;
+}
+
+.img-tex1 {
+	position: absolute;
+	top: 950px;
+	left: 570px;
+}
+
+.img-p1 {
+	position: absolute;
+	top: 1000px;
+	left: 570px;
+	width: 300px;
+}
+
+.img-tex2 {
+	position: absolute;
+	top: 950px;
+	left: 1000px;
+}
+
+.img-p2 {
+	position: absolute;
+	top: 1000px;
+	left: 1000px;
+	width: 300px;
+}
+
+
