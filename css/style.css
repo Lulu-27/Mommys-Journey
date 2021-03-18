@@ -6,6 +6,15 @@
 }
 
 
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-Regular.ttf") format('TrueType');
+}
+
+
+
+
+
 body{
 	font-family: Montserrat;
 	font-size: 15px;
@@ -13,7 +22,7 @@ body{
 }
 
 header{
-	padding: 35px;
+	padding: 3% 0 0 0;
 }
 
 #hero{
@@ -25,24 +34,29 @@ header{
 	background-color: #DA5241;
 }
 
-#hero h1{
+#hero h1,
+#hero-slides h1,
+#carouselExampleCaptions h1{
 	font-size: 90px;
-	font-weight: bold;
+	font-weight: 900;
 	text-transform: uppercase;
+	color: var(--color-naranja);	
 }
 
-#hero h3{
-	text-align: right;
-	padding-left: 400px;
+#hero h3,
+#hero-slides h3,
+#carouselExampleCaptions h3{
+	text-align: center;
 	padding-top: 10px;
 	color: #DA5241;
 	font-weight: lighter
 }
 
-#hero h5{
-	text-align: right;
-	padding-left: 500px;
-	padding-top: 10px;
+#hero h5,
+#hero-slides h5,
+#carouselExampleCaptions h5{
+	text-align: center;
+	padding-top: 2%;
 	color: #4A4643;
 	font-size: 18px;
 }
@@ -87,7 +101,7 @@ header{
 }
 
 .section{
-	padding: 5% 0;
+	padding: 2% 0;
 }
 
 #col2{
@@ -119,7 +133,7 @@ header{
 	padding: 5% 0; 
 }
 
-#el-plan .btn-light{
+#el-plan1 .btn-light{
 	background-color: transparent;
 	border: 2px solid #E8B186;
 	padding: 10px 20px;
@@ -130,7 +144,7 @@ header{
 	
 }
 
-#embarazo .btn-light{
+#embarazo1 .btn-light{
 	background-color: transparent;
 	border: 2px solid #E8B186;
 	padding: 10px 20px;
@@ -141,7 +155,7 @@ header{
 	
 }
 
-#postparto .btn-light{
+#postparto1 .btn-light{
 	background-color: transparent;
 	border: 2px solid #E8B186;
 	padding: 10px 20px;
@@ -152,7 +166,7 @@ header{
 	
 }
 
-#lactancia .btn-light{
+#lactancia1 .btn-light{
 	background-color: transparent;
 	border: 2px solid #E8B186;
 	padding: 10px 20px;
@@ -163,28 +177,28 @@ header{
 	
 }
 
-#el-plan .btn-light:hover{
+#el-plan1 .btn-light:hover{
 	background-color: #DB825D;
 	color: #fff;
 	border-color: #DB825D;
 	
 }
 
-#embarazo .btn-light:hover{
+#embarazo1 .btn-light:hover{
 	background-color: #DB825D;
 	color: #fff;
 	border-color: #DB825D;
 	
 }
 
-#postparto .btn-light:hover{
+#postparto1 .btn-light:hover{
 	background-color: #DB825D;
 	color: #fff;
 	border-color: #DB825D;
 	
 }
 
-#lactancia .btn-light:hover{
+#lactancia1 .btn-light:hover{
 	background-color: #DB825D;
 	color: #fff;
 	border-color: #DB825D;	
@@ -204,7 +218,7 @@ header{
 #el-plan h1 {
 	text-align: center;
 	text-transform: uppercase;
-	font-weight: bolder;
+	font-weight: 900;
 	font-size: 60px;	
 }
 
@@ -236,41 +250,141 @@ header{
 
 .img-text {
 	position: absolute;
-	top: 950px;
+	top: 850px;
 	left: 130px;
 }
 
 .img-p {
 	position: absolute;
-	top: 1000px;
+	top: 900px;
 	left: 130px;
 	width: 300px;
 }
 
 .img-tex1 {
 	position: absolute;
-	top: 950px;
+	top: 850px;
 	left: 570px;
 }
 
 .img-p1 {
 	position: absolute;
-	top: 1000px;
+	top: 900px;
 	left: 570px;
 	width: 300px;
 }
 
 .img-tex2 {
 	position: absolute;
-	top: 950px;
+	top: 850px;
 	left: 1000px;
 }
 
 .img-p2 {
 	position: absolute;
-	top: 1000px;
+	top: 900px;
 	left: 1000px;
 	width: 300px;
 }
+
+.rounded-circle{
+	width: 80px;
+	height: 80px;
+	line-height: 80px;
+	border-radius: 100%;
+	background-color: #DB825D;
+	display: block;
+	margin: auto;
+	color: #fff;
+	font-size: 30px;
+	text-align: center;
+}
+
+#redes h4 {
+	text-align: center;
+}
+
+#suscribete{
+	text-align: center;
+	background-color: #F7B688;
+}
+
+#hello2 h2,
+#hello3 h2,
+#hello4 h2{
+	font-weight: bold;
+	padding: 2% 0 2% 0;
+	text-align: center;
+}
+
+#hello2 h5,
+#hello3 h5,
+#hello4 h5{
+	padding: 2% 2% 2% 2%;
+	color: #fff;
+	text-align: center;
+}
+
+#embarazo {
+	text-align: center;
+
+}
+
+
+#embarazo h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 60px;	
+}
+
+#embarazo p {
+	padding: 2% 18%;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--color-gris)
+}
+
+#post-parto {
+	text-align: center;
+
+}
+
+
+#post-parto h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 60px;	
+}
+
+#post-parto p {
+	padding: 2% 18%;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--color-gris)
+}
+
+#lactation {
+	text-align: center;
+
+}
+
+
+#lactation h1 {
+	text-align: center;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-size: 60px;	
+}
+
+#lactation p {
+	padding: 2% 18%;
+	font-size: 20px;
+	font-weight: 500;
+	color: var(--color-gris)
+}
+
+
 
 

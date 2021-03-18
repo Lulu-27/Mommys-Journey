@@ -8,6 +8,7 @@
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 	
 </head>
 
@@ -53,7 +54,7 @@
 	
 	</header>
 	
-	<section id="hero" class="section">
+	<section id="hero" class="section d-none">
 		<div class="container">
 			<h1>Con calma</h1>
 			<h3>Tips para cuidar tu piel durante el embarazo</h3>
@@ -62,6 +63,44 @@
 		</div>
 		
 	</section>
+	
+	<section id="hero-slides" class="section">
+		<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">		 
+			
+		  <div class="carousel-inner">
+			<div class="carousel-item active">
+			  <img src="img/carrusel-01.jpg" class="d-block w-100" alt="imagen-inicio">
+			  <div class="carousel-caption d-md-block">
+				<h1>Con calma</h1>
+				<h3>Tips para cuidar tu piel durante el embarazo</h3>
+				<h5>La aparición de estrías y aunque sabes que esto es normal durante el embarazo, probablemente te estés preguntando cómo evitarlas, nuestra recomendación es que tengas un poco calma.</h5>
+				<a href="#" class="btn btn-light">Leer más</a>
+			  </div>
+			</div>
+			<div class="carousel-item">
+			  <img src="img/carrusel-02.jpg" class="d-block w-100" alt="imagen-inicio-2">
+			  <div class="carousel-caption d-md-block">
+				<h1>Con calma</h1>
+				<h3>Tips para cuidar tu piel durante el embarazo</h3>
+				<h5>La aparición de estrías y aunque sabes que esto es normal durante el embarazo, probablemente te estés preguntando cómo evitarlas, nuestra recomendación es que tengas un poco calma.</h5>
+				<a href="#" class="btn btn-light">Leer más</a>
+			  </div>
+			</div>
+			
+		  </div>
+		  <a class="carousel-control-prev" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+			<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Previous</span>
+			  
+		  </a>
+		  <a class="carousel-control-next" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+			<span class="carousel-control-next-icon" aria-hidden="true"></span>
+			<span class="visually-hidden">Next</span>
+		  </a>
+		</div>
+	</section>
+	
+	
 	
 	<section id="hello" class="section">
 		<div class="container">
@@ -88,12 +127,12 @@
 <section id="secciones" class="section">
 	<div class="container">
 		<div class="row">
-			<div class="col" id="el-plan"> <img src="img/secciones-02.jpg" class="img-fluid"><a href="el-plan.html" class="btn btn-light">El plan</a></div>			
-			<div class="col" id="embarazo"> <img src="img/secciones-03.jpg" class="img-fluid"><a href="#" class="btn btn-light">Embarazo</a></div>			
+			<div class="col" id="el-plan1"> <img src="img/secciones-02.jpg" class="img-fluid"><a href="el-plan.html" class="btn btn-light">El plan</a></div>			
+			<div class="col" id="embarazo1"> <img src="img/secciones-03.jpg" class="img-fluid"><a href="embarazo.html" class="btn btn-light">Embarazo</a></div>			
 		</div>
 		<div class="row">
-			<div class="col" id="postparto"> <img src="img/secciones-04.jpg" class="img-fluid"><a href="#" class="btn btn-light">Postparto</a></div>			
-			<div class="col" id="lactancia"> <img src="img/secciones-05.jpg" class="img-fluid"><a href="#" class="btn btn-light">Lactancia</a></div>			
+			<div class="col" id="postparto1"> <img src="img/secciones-04.jpg" class="img-fluid"><a href="postparto.html" class="btn btn-light">Postparto</a></div>			
+			<div class="col" id="lactancia1"> <img src="img/secciones-05.jpg" class="img-fluid"><a href="lactancia.html" class="btn btn-light">Lactancia</a></div>			
 		</div>
 	</div>		
 </section>
@@ -108,13 +147,51 @@
 		
 	</section>
 	
+	<section id="redes" class="section">		
+		<div class="container">
+			<h4><b>Síguenos en nuestras redes</b></h4>
+			<br>
+			<br>
+			<div class="row">
+				<article class="col-lg-3 col-sm-6 col-12" >
+					<span class="rounded-circle"><i class="fab fa-instagram"></i></span>
+				</article>
+				
+				<article class="col-lg-3 col-sm-6 col-12" >
+					<span class="rounded-circle"><i class="fab fa-facebook-f"></i></span>
+				</article>
+				
+				<article class="col-lg-3 col-sm-6 col-12" >
+					<span class="rounded-circle"><i class="fab fa-twitter"></i></span>
+				</article>
+				
+				<article class="col-lg-3 col-sm-6 col-12" >
+					<span class="rounded-circle"><i class="fab fa-linkedin-in"></i></span>
+				</article>
+
+			</div>
+		</div>
+	</section>
+	
 	<footer class="section">
 		<div class="container">
 			<p><img src="img/logo-bunny-lab.png" class="img-fluid" width="60px">Copyright &copy; Diseñado por <span><b>Bunny Lab Estudio Creativo</b></span></p>
 					
 		</div>
+		
 	
 	</footer>
+	
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-192030458-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-192030458-1');
+	</script>
 	
 	<script src="js/jquery.min.js"></script>
 	<script src="js/bootstrap.min.js"></script>
