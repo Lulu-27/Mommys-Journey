@@ -5,11 +5,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Suscríbete-Mommy's Journey</title>
 	
+<link href="img/mj-favicon.png" rel="shortcut icon">
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <link href="css/bootstrap-custom.css" rel="stylesheet">
 <link href="css/style.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
 
+	<!-- SEO -->
+<meta name="Description" content="Sitio den el cual podés suscribirte para recibir más contenido y donde puedes hacernos sugerencias para mejorar tu aventura como mamá">
+<meta name="Keywords" content="maternidad, mamás, mamá, suscríbete, mensaje, enlace, correo, contacto">
+<meta property="og.title" content="Página de contenido HTML">
+<meta property="og.url" content="mipagina.com/pagina.html">
+<meta property="og.description" content="Mommy's Journey">
+<meta property="og.image" content="mipagina.com /img/imagen.jpg">	
+	
+	
 </head>
 
 <body>
@@ -72,13 +82,13 @@
 					<br>
 					<section class="widget widget_blog_subscription">
 						<form action="#" method="post" accept-charset="utf-8" id="subscribe-blog">
-							<h1>SUSCRÍBETE</h1>
+							<h1><b>SUSCRÍBETE</b></h1>
 							<p>Nos encantaría que recibieras información especial por medio de tu correo.</p>
 							<p>
 								<input type="text" name="email" style="width: 95%; padding: 1px 2px" placeholder="Introduce tu correo electrónico" value="" id="subscribe-field">
 							</p>
 							<p>
-							<input type="submit" value="¡Suscribéte!">
+							<div id="suscribe"><a href="#" class="btn btn-light">Suscríbete</a></div>
 							</p>
 						</form>
 					</section>					
@@ -119,6 +129,19 @@
 					
 		</div>
 	</footer>
+	
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-192030458-1"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'UA-192030458-1');
+	</script>
+	
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	
 </body>
 </html>

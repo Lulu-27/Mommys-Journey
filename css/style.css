@@ -385,6 +385,20 @@ header{
 	color: var(--color-gris)
 }
 
+#suscribe .btn-light{
+	background-color: transparent;
+	border: 2px solid #DA5241;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 15px;
+	font-weight: 700; 
+	
+}
 
-
+#suscribe .btn-light:hover{
+	background-color: #DA5241;
+	color: #fff;
+	border-color: #DA5241;	
+}
 
