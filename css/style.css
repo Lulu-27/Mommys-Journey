@@ -250,40 +250,40 @@ header{
 
 .img-text {
 	position: absolute;
-	top: 850px;
+	top: 800px;
 	left: 130px;
 }
 
 .img-p {
 	position: absolute;
-	top: 900px;
+	top: 850px;
 	left: 130px;
 	width: 300px;
 }
 
 .img-tex1 {
 	position: absolute;
-	top: 850px;
-	left: 570px;
+	top: 800px;
+	left: 510px;
 }
 
 .img-p1 {
 	position: absolute;
-	top: 900px;
-	left: 570px;
+	top: 850px;
+	left: 510px;
 	width: 300px;
 }
 
 .img-tex2 {
 	position: absolute;
-	top: 850px;
-	left: 1000px;
+	top: 800px;
+	left: 890px;
 }
 
 .img-p2 {
 	position: absolute;
-	top: 900px;
-	left: 1000px;
+	top: 850px;
+	left: 890px;
 	width: 300px;
 }
 
@@ -401,4 +401,24 @@ header{
 	color: #fff;
 	border-color: #DA5241;	
 }
+
+/*Computadora (lg)*/
+@media (min-width:1200px){
+	
+}
+
+/*tablet (sm)*/
+@media (min-width:600px) and (max-width:1200px){
+	
+	#features .feature{
+		margin-bottom: 15px;
+	}
+	
+}
+
+/*celular*/
+@media (max-width:600px){
+	}
+
+
 
